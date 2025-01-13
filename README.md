@@ -38,7 +38,7 @@ This project was inspired by and uses sample **Hexag⬡ns** ([OpenSea Collection
 Inside the repo folder:
 
 ```bash
-python scripts/svg_to_scope.py input.svg output.png output.wav \
+python scripts/svg_to_scope.py hexagons-pitations.svg hexagons-pitations.png output.wav \
     --sample_rate 44100 \
     --cycle_samples 2048 \
     --repeats_per_second 30 \
@@ -47,8 +47,8 @@ python scripts/svg_to_scope.py input.svg output.png output.wav \
 
 ### Parameters:
 
-- `input.svg`: Your SVG containing polygonal hexagon paths (or any shapes)
-- `output.png`: A quick preview of the polygons (green lines on black)
+- `hexagons-pitations.svg`: Your SVG containing polygonal hexagon paths (or any shapes)
+- `hexagons-pitations.png`: A quick preview of the polygons (green lines on black)
 - `output.wav`: The stereo audio file for XY display
 - `--sample_rate`: WAV sample rate. Default is 44100
 - `--cycle_samples`: Number of samples in one wave cycle. More samples = higher shape detail
